@@ -1,1 +1,7 @@
+# basic stuff
 *.exe
+
+# this is just for my clangd
+compile_flags.txt
+
+/build

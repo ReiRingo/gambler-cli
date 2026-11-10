@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <limits.h>
+#include "test.h"
 
 #define TITLE "Gambler v0.01"
 #define DEV "Rei Taylor"
@@ -25,6 +26,7 @@ enum
 
 void gambler_help(void)
 {
+
     printf(
         TITLE " by " DEV "\n"
         "----------------------------------\n"
